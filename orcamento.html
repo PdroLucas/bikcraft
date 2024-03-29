@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orçamento | Bikcraft</title>
     <meta name="description" content="Solicite seu orçamento">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">    
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script>document.document.Element.classList("js")</script>
 </head>
 <body id="orcamento">
     <header class="header-bg">
@@ -38,9 +40,9 @@
             <div class="orcamento-produto">
                 <h2 class="fonte-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
-                <input type="radio" id="bikcraft" name="tipo">
+                <input type="radio" id="bikcraft" name="tipo" value="bikcraft">
                 <label for="bikcraft">Bikcraft</label>
-                <input type="radio" id="seguro" name="tipo">
+                <input type="radio" id="seguro" name="tipo" value="seguro">
                 <label for="seguro">Seguro</label>
 
                 <div class="lista-produto" id="produto-bikcraft">
@@ -170,5 +172,6 @@
             <p class="footer-copy fonte-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
